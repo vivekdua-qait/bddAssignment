@@ -1,0 +1,25 @@
+Element                 Locator Type         Locator
+===================================================================================================
+btn_signin             css                    .login
+email                  css                    #email
+password               css                    #passwd
+btn_submit             css                    #SubmitLogin
+account_name           css                    .account span
+nav_tab                xpath                  //*[@id="block_top_menu"]/ul/li/a[text()="${text}"]
+custom_options         xpath                  //span[@class="layered_subtitle"][text()="${text}"]//..//..//a[text()="${text}"]/../..//input
+product                css                    .product_list .product-image-container
+btn_addtocart          xpath                  //a//span[text()="Add to cart"]
+btn_proceed            xpath                  //div[@id="layer_cart"]//span[contains(text(),"Proceed to checkout")]
+checkout_steps         xpath                  //ul[@id="order_step"]//span[contains(text(),"${text}")]
+btn_checkout           xpath                  //p[@class="cart_navigation clearfix"]//span[contains(text(),"${text}")]
+i_agree                css                    .checker input
+payment                css                    .payment_module .${text}
+txtConfirm             css                     .box .cheque-indent .dark
+btn_myorders           css                     .myaccount-link-list [title=Orders]
+order_date             xpath                    //table[@id="order-list"]/tbody/tr[1]/td[contains(@class,"history_date")]
+order_ref1             css                      .box.order-confirmation
+personal_info          css                      .myaccount-link-list [title=Information]
+txt_firstname          css                      #firstname
+old_passwd             css                      #old_passwd
+btn_save               css                      button[name=submitIdentity]
+success                 css                     .alert-success

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assignment1" verbose="1">
+
+    <test name="New Order" >
+        <classes>
+            <class name="com.test.vivek.runner.NewOrderRunner"/>
+        </classes>
+    </test>
+    <test name="Update Information" >
+        <classes>
+            <class name="com.test.vivek.runner.UpdateInfoRunner"/>
+        </classes>
+    </test>
+</suite>

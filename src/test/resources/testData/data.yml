@@ -1,0 +1,15 @@
+url: "http://automationpractice.com"
+title:
+  home: "My Store"
+  login: "Login - My Store"
+  account: "My account - My Store"
+  tshirt: "T-shirts - My Store"
+  order: "Order - My Store"
+  history: "Order history - My Store"
+  identity: "Identity - My Store"
+confirmation_text: "Your order on My Store is complete."
+update_confirm: "Your personal information has been successfully updated."
+accountName: "Vivek Dua"
+email: vivekdua@qainfotech.com
+password: "Qait@123"
+
